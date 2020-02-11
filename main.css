@@ -1,0 +1,85 @@
+body {
+  background-color: white; }
+
+#main {
+  width: 100%; }
+
+#container {
+  width: 80%;
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  grid-gap: 10%;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+
+#containerChild {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  border: 2px solid gray;
+  padding: 10px; }
+
+#containerParent {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  border: 2px solid gray;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+.divParentItem {
+  width: 80%;
+  height: 150px;
+  margin-top: 10px;
+  background-color: black; }
+
+.divChildItem {
+  width: 25%;
+  height: 90px;
+  margin: 10px;
+  background-color: green; }
+
+.divFooter {
+  width: 100%;
+  height: 150px;
+  background-color: gray; }
+
+.divParentItem p {
+  color: white;
+  font-weight: bold; }
+
+.divChildItem p {
+  color: white;
+  font-weight: bold; }
+
+.run {
+  width: 150px;
+  height: 50px;
+  margin: 10px; }
+
+.reset {
+  width: 150px;
+  height: 50px;
+  margin: 10px; }
+
+#result {
+  margin: 10px;
+  color: green;
+  font-size: 45px; }
+
+#DivTitle {
+  width: 100%;
+  margin: 10px;
+  font-size: 45px;
+  text-align: center; }
+
+.red {
+  border: 1px solid red; }
+
+/*# sourceMappingURL=main.css.map */
